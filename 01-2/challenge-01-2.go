@@ -18,8 +18,10 @@ func getMassesList() []int {
 		return massesIntArray
 	}
 
+	// Split file string at by new lines
 	massArr = strings.Split(string(data), "\n")
 
+	// Interate through array of strings and build a new array of ints
 	for index := 0; index < len(massArr)-1; index++ {
 		intValue, err := strconv.Atoi(massArr[index])
 		if err != nil {
