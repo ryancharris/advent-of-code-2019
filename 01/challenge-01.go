@@ -14,7 +14,7 @@ func calculateFuel(mass int) float64 {
 
 func main() {
 	// Read input from .txt file]
-	data, err := ioutil.ReadFile("01/challenge-1-input.txt")
+	data, err := ioutil.ReadFile("inputs/challenge-1-input.txt")
 	if err != nil {
 		fmt.Println("File reading error", err)
 		return
