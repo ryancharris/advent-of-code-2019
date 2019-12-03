@@ -1,0 +1,83 @@
+## Advent of Code 2019
+
+This year, I'm doing the Advent of Code challenge in [Go](https://golang.org/).
+
+#### Progress
+
+- Day 1
+  - [x] Pt. 1
+  - [x] Pt. 2
+- Day 2
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 3
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 4
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 5
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 6
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 7
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 8
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 9
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 10
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 11
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 12
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 13
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 14
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 15
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 16
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 17
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 18
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 19
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 20
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 21
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 22
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 23
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 24
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+- Day 25
+  - [ ] Pt. 1
+  - [ ] Pt. 2
+
+For details on [Advent of Code](https://adventofcode.com), visit their website.
