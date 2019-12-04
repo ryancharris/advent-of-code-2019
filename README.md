@@ -8,7 +8,7 @@ This year, I'm doing the Advent of Code challenge in [Go](https://golang.org/).
   - [x] Pt. 1
   - [x] Pt. 2
 - Day 2
-  - [ ] Pt. 1
+  - [x] Pt. 1
   - [ ] Pt. 2
 - Day 3
   - [ ] Pt. 1
