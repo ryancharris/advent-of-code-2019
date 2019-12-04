@@ -36,32 +36,34 @@ func main() {
 	intCodes := readInput()
 
 	for index := 0; index < len(intCodes); index++ {
-		currentCode := intCodes[index]
-		if currentCode == 99 {
+		if intCodes[index] == 99 {
 			break
 		}
 
 		codeArray := intCodes[index : index+4]
+		currentCode := codeArray[0]
+		indexA := codeArray[1]
+		indexB := codeArray[2]
 		positionToUpdate := codeArray[3]
+
+		valueA := intCodes[indexA]
+		fmt.Println("valueA", valueA)
+		valueB := intCodes[indexB]
+		fmt.Println("valueB", valueB)
 
 		switch currentCode {
 		case 1:
 			fmt.Println("codeArray", codeArray)
-			fmt.Println("positionToUpdate", positionToUpdate)
-			fmt.Println(fmt.Sprintf("%d + %d = %d", codeArray[1], codeArray[2], codeArray[1]+codeArray[2]))
-			fmt.Println("**********")
-			intCodes[positionToUpdate] = codeArray[1] + codeArray[2]
+			fmt.Println(fmt.Sprintf("%d + %d = %d", valueA, valueB, valueA+valueB))
+			intCodes[positionToUpdate] = valueA + valueB
 			index += 4
 		case 2:
 			fmt.Println("codeArray", codeArray)
-			fmt.Println("positionToUpdate", positionToUpdate)
-			fmt.Println(fmt.Sprintf("%d * %d = %d", codeArray[1], codeArray[2], codeArray[1]*codeArray[2]))
-			fmt.Println("**********")
-			intCodes[positionToUpdate] = codeArray[1] * codeArray[2]
+			fmt.Println(fmt.Sprintf("%d * %d = %d", valueA, valueB, valueA*valueB))
+			intCodes[positionToUpdate] = valueA * valueB
 			index += 4
 		}
 	}
-
-	fmt.Println("intCodes", intCodes)
-	fmt.Println("intCodes[0]", intCodes[0])
+	fmt.Println(intCodes)
+	fmt.Println("=====>", intCodes[0])
 }
